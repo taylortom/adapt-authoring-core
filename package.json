@@ -1,0 +1,9 @@
+{
+  "name": "adapt-authoring-core",
+  "version": "0.0.1",
+  "description": "Core module for the Adapt authoring tool",
+  "main": "index.js",
+  "dependencies": {
+    "adapt-authoring-moduleloader": "git+https://github.com/taylortom/adapt-authoring-moduleloader.git"
+  }
+}
