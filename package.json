@@ -4,6 +4,6 @@
   "description": "Core module for the Adapt authoring tool",
   "main": "index.js",
   "dependencies": {
-    "adapt-authoring-moduleloader": "git+https://github.com/taylortom/adapt-authoring-moduleloader.git"
+    "adapt-authoring-modules": "git+https://github.com/taylortom/adapt-authoring-modules.git"
   }
 }
