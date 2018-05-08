@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Core module for the Adapt authoring tool",
   "main": "index.js",
-  "dependencies": {
-    "adapt-authoring-modules": "git+https://github.com/taylortom/adapt-authoring-modules.git"
+  "adapt_authoring": {
+    "module": true
   }
 }
