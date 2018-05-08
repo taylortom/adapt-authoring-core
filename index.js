@@ -1,5 +1,5 @@
 const App = require('./lib/app');
-const Module = require('./lib/datatypes/module');
+const Module = require('./lib/module');
 
 module.exports = {
   App,
