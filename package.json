@@ -4,5 +4,6 @@
   "description": "Core module for the Adapt authoring tool",
   "main": "index.js",
   "adapt_authoring": {
+    "includeDocumentation": true
   }
 }
