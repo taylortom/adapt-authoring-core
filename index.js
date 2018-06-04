@@ -1,9 +1,7 @@
-const App = require('./lib/app');
-const Module = require('./lib/module');
+import App from './lib/app';
+import Module from './lib/module';
 
 module.exports = {
   App,
-  DataTypes: {
-    Module
-  }
+  Module
 };
