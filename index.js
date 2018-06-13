@@ -1,5 +1,5 @@
-import App from './lib/app';
-import Module from './lib/module';
+const App = require('./lib/app');
+const Module = require('./lib/module');
 
 module.exports = {
   App,
