@@ -3,5 +3,6 @@ const Module = require('./lib/module');
 
 module.exports = {
   App,
+  DataStore,
   Module
 };
