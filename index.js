@@ -5,6 +5,7 @@ const Events = require('./lib/events');
 const Hookable = require('./lib/loadable');
 const Loadable = require('./lib/hookable');
 const Module = require('./lib/module');
+const Requester = require('./lib/requester');
 const Responder = require('./lib/responder');
 const Utils = require('./lib/utils');
 
@@ -16,6 +17,7 @@ module.exports = {
   Hookable,
   Loadable,
   Module,
+  Requester,
   Responder,
   Utils
 };
