@@ -1,23 +1,13 @@
-const App = require('./lib/app');
-const DataStore = require('./lib/datastore');
-const DataStoreQuery = require('./lib/datastorequery');
-const Events = require('./lib/events');
-const Hookable = require('./lib/loadable');
-const Loadable = require('./lib/hookable');
-const Module = require('./lib/module');
-const Requester = require('./lib/requester');
-const Responder = require('./lib/responder');
-const Utils = require('./lib/utils');
-
 module.exports = {
-  App,
-  DataStore,
-  DataStoreQuery,
-  Events,
-  Hookable,
-  Loadable,
-  Module,
-  Requester,
-  Responder,
-  Utils
+  App: require('./lib/app'),
+  DataStore: require('./lib/datastore'),
+  DataStoreQuery: require('./lib/datastorequery'),
+  Events: require('./lib/events'),
+  Hookable: require('./lib/loadable'),
+  Loadable: require('./lib/hookable'),
+  Module: require('./lib/module'),
+  Requester: require('./lib/requester'),
+  Responder: require('./lib/responder'),
+  Singleton: require('./lib/singleton'),
+  Utils: require('./lib/utils'),
 };
