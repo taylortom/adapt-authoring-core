@@ -2,8 +2,8 @@ const App = require('./lib/app');
 const DataStore = require('./lib/datastore');
 const DataStoreQuery = require('./lib/datastorequery');
 const Events = require('./lib/events');
-const Hookable = require('./lib/loadable');
-const Loadable = require('./lib/hookable');
+const Hooks = require('./lib/hooks');
+const Loadable = require('./lib/loadable');
 const Module = require('./lib/module');
 const Requester = require('./lib/requester');
 const Responder = require('./lib/responder');
@@ -14,9 +14,9 @@ module.exports = {
   DataStore,
   DataStoreQuery,
   Events,
-  Hookable,
+  Hooks,
   Loadable,
-  Module: Utils.compose(Module, Hookable, Loadable, Events),
+  Module,
   Requester,
   Responder,
   Utils
