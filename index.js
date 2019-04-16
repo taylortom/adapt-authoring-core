@@ -7,11 +7,10 @@ const Loadable = require('./lib/hookable');
 const Module = require('./lib/module');
 const Requester = require('./lib/requester');
 const Responder = require('./lib/responder');
-const Singleton = require('./lib/singleton');
 const Utils = require('./lib/utils');
 
 module.exports = {
-  App: Utils.compose(App, Singleton),
+  App,
   DataStore,
   DataStoreQuery,
   Events,
@@ -20,6 +19,5 @@ module.exports = {
   Module: Utils.compose(Module, Hookable, Loadable, Events),
   Requester,
   Responder,
-  Singleton,
   Utils
 };
