@@ -17,7 +17,7 @@ module.exports = {
   Events,
   Hookable,
   Loadable,
-  Module,
+  Module: Utils.compose(Module, Hookable, Loadable, Events),
   Requester,
   Responder,
   Singleton,
