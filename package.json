@@ -2,6 +2,7 @@
   "name": "adapt-authoring-core",
   "version": "0.0.1",
   "description": "Core module for the Adapt authoring tool",
+  "homepage": "https://github.com/taylortom/adapt-authoring-core",
   "main": "index.js",
   "adapt_authoring": {
     "documentation": {
