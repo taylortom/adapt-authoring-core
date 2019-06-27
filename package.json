@@ -1,7 +1,7 @@
 {
   "name": "adapt-authoring-core",
   "version": "0.0.1",
-  "description": "Core module for the Adapt authoring tool",
+  "description": "A bundle of reusable 'core' functionality",
   "homepage": "https://github.com/taylortom/adapt-authoring-core",
   "main": "index.js",
   "adapt_authoring": {
