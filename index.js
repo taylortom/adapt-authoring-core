@@ -2,7 +2,7 @@ const App = require('./lib/app');
 const DataStore = require('./lib/datastore');
 const DataStoreQuery = require('./lib/datastorequery');
 const Events = require('./lib/events');
-const Hooks = require('./lib/hooks');
+const Hook = require('./lib/hook');
 const Loadable = require('./lib/loadable');
 const Module = require('./lib/module');
 const Requester = require('./lib/requester');
@@ -14,7 +14,7 @@ module.exports = {
   DataStore,
   DataStoreQuery,
   Events,
-  Hooks,
+  Hook,
   Loadable,
   Module,
   Requester,
