@@ -1,6 +1,8 @@
-# Adapt authoring tool developer documentation
+![](https://www.adaptlearning.org/wp-content/uploads/2015/11/home-logo-2-alt.png)
 
-You've found the official API reference documentation for the Adapt authoring tool!
+# Adapt Authoring Tool Documentation
+
+You've found the official documentation for the Adapt authoring tool!
 
 The Adapt authoring tool is a server-based user interface for authoring eLearning courses using the Adapt framework.
 
