@@ -1,5 +1,5 @@
 {
-  "Load": "Failed to load",
-  "MissingPackageJson": "package.json not found",
-  "UnknownError": "Unknown error occurred"
+  "load": "Failed to load",
+  "nopackage": "package.json not found",
+  "unknownerror": "Unknown error occurred"
 }
