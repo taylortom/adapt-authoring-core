@@ -2,5 +2,9 @@
   "load": "Failed to load",
   "nopackage": "package.json not found",
   "unknownerror": "Unknown error occurred",
-  "appstart": "failed to start application"
+  "appstart": "failed to start application",
+  "invalidquerytype": "Invalid type '%{type}'",
+  "invalidqueryskip": "skip value must be greater than 0, '%{skip}'",
+  "invalidquerylimit": "Limit value must be greater than 1, '%{limit}'",
+  "invalidquerysort": "Sort value must be either -1 or 1, '%{sort}'"
 }
