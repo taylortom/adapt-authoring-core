@@ -1,5 +1,6 @@
 {
   "load": "Failed to load",
   "nopackage": "package.json not found",
-  "unknownerror": "Unknown error occurred"
+  "unknownerror": "Unknown error occurred",
+  "appstart": "failed to start application"
 }
