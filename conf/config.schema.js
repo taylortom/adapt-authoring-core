@@ -9,7 +9,8 @@ module.exports = {
     },
     temp_dir: {
       type: 'String',
-      default: path.join(process.cwd(), 'temp')
+      default: path.join(process.cwd(), 'temp'),
+      description: 'Path to the temporary folder'
     }
   }
 };
