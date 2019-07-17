@@ -9,5 +9,9 @@
   "invalidquerysort": "Sort value must be either -1 or 1, '%{sort}'",
   "cannotsendresponse": "Cannot send response",
   "invalidresponse": "invalid response object set",
-  "nofilepath": "options.filepath required"
+  "nofilepath": "options.filepath required",
+  "missingutil": "Missing '%{util}' utility",
+  "missingdep": "Missing dependency '%{dep}'",
+  "expectedclass": "expected class",
+  "expectedmodule": "expected a Module subclass"
 }
