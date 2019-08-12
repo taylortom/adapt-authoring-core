@@ -1,4 +1,5 @@
 const AbstractModule = require('./lib/abstractmodule');
+const AbstractUtility = require('./lib/abstractutility');
 const App = require('./lib/app');
 const DataStore = require('./lib/datastore');
 const DataStoreQuery = require('./lib/datastorequery');
@@ -12,6 +13,7 @@ const Utils = require('./lib/utils');
 
 module.exports = {
   AbstractModule,
+  AbstractUtility,
   App,
   DataStore,
   DataStoreQuery,
