@@ -1,7 +1,7 @@
-# Module Definition
-**Modules** are the building blocks of the Adapt authoring tool, with each module adding new functionality, or augmenting the existing feature set.
+# Writing a module
+**Modules** are the building blocks of the Adapt authoring tool; each adding new functionality, or augmenting the existing feature-set.
 
-This page gives a brief outline of what any Adapt authoring module must include to be included in the system.
+This page gives a brief outline of what Adapt authoring modules must include to be included in the system.
 
 ## Minimum folder structure
 ```
