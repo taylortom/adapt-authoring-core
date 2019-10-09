@@ -13,6 +13,7 @@
   "missingutil": "Missing '%{util}' utility",
   "missingdep": "Missing dependency '%{dep}'",
   "expectedclass": "expected class",
-  "expectedmodule": "expected a Module subclass",
+  "expectedmodule": "%{name} must extend AbstractModule",
+  "expectedutility": "%{name} must extend AbstractUtility",
   "connectionrefused": "Connection to '%{url}' refused, check the URL for errors"
 }
