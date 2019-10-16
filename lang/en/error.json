@@ -1,5 +1,6 @@
 {
   "load": "Failed to load",
+  "importmodule": "Failed to import module '%{name}', %{error}",
   "nopackage": "package.json not found",
   "unknownerror": "Unknown error occurred",
   "appstart": "failed to start application",
@@ -10,9 +11,10 @@
   "cannotsendresponse": "Cannot send response",
   "invalidresponse": "invalid response object set",
   "nofilepath": "options.filepath required",
+  "createutility": "Failed to create utility '%{name}', %{error}",
   "missingutil": "Missing '%{util}' utility",
   "missingdep": "Missing dependency '%{dep}'",
-  "expectedclass": "expected class",
+  "expectedclass": "expected class to be exported by %{name}, got %{type}",
   "expectedmodule": "%{name} must extend AbstractModule",
   "expectedutility": "%{name} must extend AbstractUtility",
   "connectionrefused": "Connection to '%{url}' refused, check the URL for errors"
