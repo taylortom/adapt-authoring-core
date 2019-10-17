@@ -12,6 +12,7 @@
   "invalidresponse": "invalid response object set",
   "nofilepath": "options.filepath required",
   "createutility": "Failed to create utility '%{name}', %{error}",
+  "createmodule": "Failed to create module '%{name}', %{error}",
   "missingutil": "Missing '%{util}' utility",
   "missingdep": "Missing dependency '%{dep}'",
   "expectedclass": "expected class to be exported by %{name}, got %{type}",
