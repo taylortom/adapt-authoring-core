@@ -7,10 +7,6 @@
   "adapt_authoring": {
     "documentation": {
       "enable": true,
-      "includes": {
-        "source": "lib/*",
-        "docs": "docs/*"
-      },
       "manualIndex": "docs/index-manual.md",
       "sourceIndex": "docs/index-docs.md"
     }
