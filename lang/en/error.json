@@ -1,6 +1,6 @@
 {
   "load": "Failed to load",
-  "importmodule": "Failed to import module '%{name}', %{error}",
+  "importmodule": "Failed to import module '%{name}', %{error} %{stack}",
   "nopackage": "package.json not found",
   "unknownerror": "Unknown error occurred",
   "appstart": "failed to start application",
