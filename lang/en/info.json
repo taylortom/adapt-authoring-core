@@ -1,5 +1,5 @@
 {
-  "appstart": "running application from %{dir}",
+  "startapp": "running application from %{dir}",
   "preloaded": "preloaded",
   "booted": "booted"
 }
