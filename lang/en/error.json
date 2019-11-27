@@ -9,6 +9,7 @@
   "invalidquerylimit": "Limit value must be greater than 1, '%{limit}'",
   "invalidquerysort": "Sort value must be either -1 or 1, '%{sort}'",
   "cannotsendresponse": "Cannot send response",
+  "nostatuscode": "Must specify HTTP status code",
   "invalidresponse": "invalid response object set",
   "nofilepath": "options.filepath required",
   "createutility": "Failed to create utility '%{name}', %{error}",
