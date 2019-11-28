@@ -1,8 +1,7 @@
 const AbstractModule = require('./lib/abstractmodule');
 const AbstractUtility = require('./lib/abstractutility');
 const App = require('./lib/app');
-const DataStore = require('./lib/datastore');
-const DataStoreQuery = require('./lib/datastorequery');
+const DataQuery = require('./lib/datastorequery');
 const DataValidationError = require('./lib/datavalidationerror');
 const Events = require('./lib/events');
 const Hook = require('./lib/hook');
@@ -15,8 +14,7 @@ module.exports = {
   AbstractModule,
   AbstractUtility,
   App,
-  DataStore,
-  DataStoreQuery,
+  DataQuery,
   DataValidationError,
   Events,
   Hook,
