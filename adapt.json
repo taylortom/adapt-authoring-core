@@ -1,0 +1,8 @@
+{
+  "module": false,
+  "documentation": {
+    "enable": true,
+    "manualIndex": "docs/index-manual.md",
+    "sourceIndex": "docs/index-docs.md"
+  }
+}

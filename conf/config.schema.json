@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "root_dir": {
+      "description": "Path to the root folder",
+      "type": "string"
+    },
+    "temp_dir": {
+      "description": "Path to the temporary folder",
+      "type": "string"
+    }
+  },
+  "required": ["root_dir", "temp_dir"]
+}
