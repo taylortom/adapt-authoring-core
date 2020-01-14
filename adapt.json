@@ -1,5 +1,11 @@
 {
   "module": false,
+  "essentialApis": [
+    "config",
+    "jsonschema",
+    "lang",
+    "logger"
+  ]
   "documentation": {
     "enable": true,
     "manualIndex": "docs/index-manual.md",
