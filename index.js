@@ -1,17 +1,8 @@
-const AbstractModule = require('./lib/abstractmodule');
-const App = require('./lib/app');
-const DataValidationError = require('./lib/datavalidationerror');
-const DependencyLoader = require('./lib/dependencyloader');
-const Events = require('./lib/events');
-const Hook = require('./lib/hook');
-const Utils = require('./lib/utils');
-
 module.exports = {
-  AbstractModule,
-  App,
-  DataValidationError,
-  DependencyLoader,
-  Events,
-  Hook,
-  Utils
+  AbstractModule: require('./lib/abstractmodule'),
+  App: require('./lib/app'),
+  DependencyLoader: require('./lib/dependencyloader'),
+  Events: require('./lib/events'),
+  Hook: require('./lib/hook'),
+  Utils: require('./lib/utils')
 };
