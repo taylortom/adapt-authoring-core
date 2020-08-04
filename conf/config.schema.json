@@ -2,14 +2,14 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "root_dir": {
+    "rootDir": {
       "description": "Path to the root folder",
       "type": "string"
     },
-    "temp_dir": {
+    "tempDir": {
       "description": "Path to the temporary folder",
       "type": "string"
     }
   },
-  "required": ["root_dir", "temp_dir"]
+  "required": ["rootDir", "tempDir"]
 }
