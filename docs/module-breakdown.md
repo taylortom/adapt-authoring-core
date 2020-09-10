@@ -66,7 +66,7 @@ There are several other options which can be set in this object. See below for t
 
 | Attribute | Type | Description |
 | --------- | ---- | ----------- |
-| `moduleDependencies` | Array | If your module relies on other Adapt authoring modules, you can list them here. If at runtime any of the modules in this list aren't installed, a warning is printed and your module isn't loaded. |
+|  |  |  |
 
 *Note: other Adapt authoring modules may make use of the `adapt_authoring` attribute to store their own configuration settings. Please check the documentation for specific modules to be sure.*
 

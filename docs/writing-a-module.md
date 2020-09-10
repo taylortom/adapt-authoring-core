@@ -21,7 +21,6 @@ Besides the [standard NPM package attributes](https://docs.npmjs.com/files/packa
 
 - **module** (`Boolean`): Whether the Node.js module exports an adapt-authoring 'module'.
 - **utility** (`Boolean`): Whether the Node.js module exports an adapt-authoring 'utility'.
-- **moduleDependencies** (`Array[String]`): Any adapt-authoring modules that your module requires to work.
 - **documentation.enable** (`Boolean`): Whether the JavaScript code in this module should be included when you run the documentation generator.
 - **documentation.manualIndex** (`String`): Path to a page to be used as the 'Developer guides' index page (note: this will override the default index page).
 - **documentation.sourceIndex** (`String`): Path to a page to be used as the 'API reference' index page (note: this will override the default index page).
@@ -37,9 +36,6 @@ Example:
   "adapt-authoring": {
     "module": true,
     "utility": true,
-    "moduleDependencies": [
-      "adapt-authoring-mongodb"
-    ],
     "documentation": {
       "enable": true,
       "manualIndex": "docs/index-manual.md",
