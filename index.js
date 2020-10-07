@@ -1,8 +1,8 @@
 module.exports = {
-  AbstractModule: require('./lib/abstractmodule'),
-  App: require('./lib/app'),
-  DependencyLoader: require('./lib/dependencyloader'),
-  Events: require('./lib/events'),
-  Hook: require('./lib/hook'),
-  Utils: require('./lib/utils')
+  AbstractModule: require('./lib/AbstractModule'),
+  App: require('./lib/App'),
+  DependencyLoader: require('./lib/DependencyLoader'),
+  Events: require('./lib/Events'),
+  Hook: require('./lib/Hook'),
+  Utils: require('./lib/Utils')
 };
