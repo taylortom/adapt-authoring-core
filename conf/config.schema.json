@@ -6,10 +6,11 @@
       "description": "Path to the root folder",
       "type": "string"
     },
-    "tempDir": {
-      "description": "Path to the temporary folder",
-      "type": "string"
+    "uploadTempDir": {
+      "type": "string",
+      "description": "Temporary directory for file uploads",
+      "default": "temp/formidable"
     }
   },
-  "required": ["rootDir", "tempDir"]
+  "required": ["rootDir"]
 }
