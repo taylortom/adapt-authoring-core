@@ -11,6 +11,5 @@
       "description": "Temporary directory for file uploads",
       "default": "temp/formidable"
     }
-  },
-  "required": ["rootDir"]
+  }
 }
